@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Tenor+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div class="Box_1">
+        <input class="city" placeholder="Digite o nome da cidade">
+
+        <button class="btn-search" onclick="btnOnClick()">
+            <img class="img_search" src="https://www.svgrepo.com/show/488200/find.svg" alt="Ícone de busca">
+        </button>
+
+        <div class="medium_box">
+            <h2 class="city_prev"><span class="city_name"></span></h2>
+            <p class="temp"></p>
+            <div class="small-box">
+                <img class="img-prev" src="https://openweathermap.org/img/wn/04n.png" alt="Ícone de condição climática">
+                <p class="txt-prev"></p>
+            </div>
+            <div>
+                <p class="water"></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
